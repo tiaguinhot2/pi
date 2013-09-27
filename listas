@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Listas</title>
+	<style type="text/css">
+		#lista{
+		 	border-style: double;
+		 	color:red;
+  		}
+		body {
+			background-color:silver;
+		}
+		#lista1{
+			color: blue;
+			border-style: solid;
+
+		}
+		p{
+			border-style: solid;
+			border-width: 10px;
+			border-color: purple;
+			border-radius: 10px 10px 10px 10px;
+			color: silver;
+			text-align: center;
+			background-color: gray;
+
+		}
+		div{
+			width: 500px;
+			height: 100px;
+			position: absolute;
+		}
+		#posicao1{
+			background-color: red;
+			z-index: 3;
+		}
+		#posicao2{
+			background-color: blue;
+			z-index: 2
+		}
+		#posicao3{
+			background-color: green;
+			z-index: 1
+		}
+	</style>
+	<meta charset="UTF-8">
+	
+</head>
+<body>
+
+	<p>Todos os dias quando acordo, não tenho mais o tempo que passou, mas tenho muito tempo. Temos todo tempo do mundo.</p>
+	<ul id="lista">
+		<li>Linha numero1</li>
+		<li>Linha numero2</li>
+		<li>Linha numero3</li>
+	</ul>
+	<ol id="lista1">
+		<li>Linha1</li>
+		<li>Linha2</li>
+		<li>Linha3</li>
+	</ol>
+
+	<div id="posicao1"></div>
+	<div id="posicao2"></div>
+	<div id="posicao3"></div>
+</body>
+</html>
