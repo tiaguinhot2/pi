@@ -6,35 +6,29 @@
 	<meta charset="utf-8">
 	<title>Página Principal</title>
 	<style type="text/css">
-		a{
-			color: red;
+		body{
+			font: bold 1em;
+			width: auto;
+			background-color: silver;
 		}
-		#lol{
-			color: purple;
-			font-size: 100;	
-		}
-		table{
-			background-color: gray;
-			border: ridge;
+		header{
+			border: bold;
+			background-color: black;
+			width: 100%;
+			line-height: 400%;
+			border-left-width: 0px;
 		}
 	</style>
 </head>
 <body>
 
-	<table width="100%">
-		<tr>
-			<td ><a id="lol" href="inicial.html" target="principal">Home</a></td>
-			<td><a href="inicial.html" target="principal" >Atividade Inicial </a></td>
-		    <td><a href="tabelas.html" target="principal">Atividade Tabelas</a></td>
-		</tr>
+	<header>
+			<a id="Home" href="inicial.html" target="principal">Home</a> 
+			<a href="tabelas.html" target="principal">Tabelas</a>
+			<a href="somevideo.html" target="principal" >Som e Video</a>
+	</header>
+	<nav>
+		<iframe src="inicial.html" name="principal" frameborder="no" scrolling="no" width="100%" height="1800"></iframe>	
+	</nav>
 	
-	</table>
-
- 	<br>
-	 <br>
-	<br>
-    <hr>
-	<iframe src="inicial.html" name="principal" frameborder="no" scrolling="no" width="100%" height="1800"></iframe>
-	<br><br>
-
 </body>
